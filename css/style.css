@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+:root{
+    -White: hsl(0, 0%, 100%);
+    -Light-Grey: hsl(217, 12%, 63%);
+    -Medium-Grey: hsl(216, 12%, 54%);
+    -DarkBlue: hsl(213, 19%, 18%);
+    -Very-Dark-Blue: hsl(216, 12%, 8%);
+    -Orange: hsl(25, 97%, 53%);
+}
+.body{
+    background-color:hsl(216, 12%, 8%);
+    position: relative;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: hsla(213, 20%, 18%, 0.603);
+    border-radius: 16px;
+    padding: 30px 20px;    
+}
+.card .img img{
+    background-color:   hsla(216, 12%, 54%, 0.139);
+    padding: 10px;
+    border-radius: 50%;
+}
+.card h4{
+    color:hsl(0, 0%, 100%);
+    margin: 20px 0;
+}
+.card p{
+    font-size: 15px;
+    font-weight: 500;
+    color:hsl(217, 12%, 63%) ;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
+.card .select button{
+    background-color: rgb(40 49 61 / 56%) ;
+    border: none;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    cursor:  pointer;
+}
+.card .select button:hover,
+.card .select button:focus{
+    background-color:  hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(216, 12%, 8%);
+}
+.card .submit{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 36px;
+    border: 2px solid hsl(216, 12%, 8%);
+    font-weight: 500;
+    background-color:  hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor:  pointer;
+}
+.card .submit:hover,
+.card .submit:focus{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%) ;
+    transition:ease-in-out 0.5s;
+}
+.card .imgs img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h5{
+    color:  hsl(25, 97%, 53%);
+    font-weight: 100;
+    margin: 15px;
+    font-size: 13px;
+    background-color:hsla(216, 12%, 54%, 0.139) ;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card h3{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 10px 0;
+}
+.card p{
+    text-align-last: center;
+}
+.cardthank{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(213, 20%, 18%, 0.603);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,90%);
+    padding: 20px;
+ 
+
+}
+.cardthank h5{
+ color:hsl(25, 97%, 53%);
+ font-weight: 500;
+ margin: 10px 0;
+ background-color:hsla(213, 20%, 18%, 0.603) ;
+ padding: 5px;
+ border-radius: 36px;
+ font-size: 14px;
+
+}
+.cardthank h3{
+    color:hsl(0, 0%, 100%) ;
+    margin-bottom: 10px;
+}
+.cardthank p{
+    color:hsla(216, 12%, 54%, 0.702) ;
+    font-size: 13px;
+}
